@@ -19,22 +19,24 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    font-family: en-title;
-    font-size: 10pt;
+    font-family: en-nomal;
+    line-height: 18pt;
+    letter-spacing: 0.5pt;
+    font-size: 12pt;
 }
 #Xbar, #Ybar {
     position: absolute;
 }
 #Xbar {
     width: 100%;
-    border-left: 1px dashed black;
+    border-left: 1px dashed gray;
     top: 0;
     bottom: 0;
 }
 #Ybar {
     left: 0;
     height: 100%;
-    border-top: 1px dashed black;
+    border-top: 1px dashed gray;
     right: 0;
 }
 

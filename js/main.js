@@ -9,8 +9,8 @@ document.getElementById("coords").addEventListener('mousemove', function(event) 
     document.getElementById("Xbar").style.left = event.clientX + 'px';
     document.getElementById("Ybar").style.top = event.clientY + 'px'; 
     document.getElementById("coord-num").innerHTML = coordnum_x  + 'ºE'  + '<br>' + coordnum_y + 'ºN'  ;
-    document.getElementById("coord-num").style.left =  30 + event.clientX + 'px';
-    document.getElementById("coord-num").style.top = 30 + event.clientY + 'px'; 
+    document.getElementById("coord-num").style.left =  20 + event.clientX + 'px';
+    document.getElementById("coord-num").style.top = 20 + event.clientY + 'px'; 
     document.getElementById("a-cursor").style.left = coordimg_x + 'px';
     document.getElementById("a-cursor").style.top = coordimg_y + 'px'; 
 });
